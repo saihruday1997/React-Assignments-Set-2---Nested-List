@@ -14,7 +14,7 @@ export default function State(props) {
       </div>
       <div>
         {clicked &&
-          state.cities.map((el, index) => <City city={el} index={index} />)}
+          state.cities.map((el, index) => <City city={el} index={index + 1} />)}
       </div>
     </>
   );

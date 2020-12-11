@@ -14,7 +14,7 @@ export default function City(props) {
       </div>
       <div>
         {clicked &&
-          city.towns.map((el, index) => <Town town={el} index={index} />)}
+          city.towns.map((el, index) => <Town town={el} index={index + 1} />)}
       </div>
     </>
   );

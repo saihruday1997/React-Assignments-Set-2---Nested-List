@@ -161,7 +161,7 @@ function App() {
       <div id="main"></div>
       <div>
         {states.map((el, index) => (
-          <State state={el} index={index} />
+          <State state={el} index={index + 1} />
         ))}
       </div>
     </>
