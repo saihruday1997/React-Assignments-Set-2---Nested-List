@@ -9,13 +9,13 @@ export default function State(props) {
 
   return (
     <>
-      <div id={`state${id}`} onClick={() => setClicked(!clicked)}>
+      <h1 id={`state${id}`} onClick={() => setClicked(!clicked)}>
         {state.name}
-      </div>
-      <div>
+      </h1>
+      <h1>
         {clicked &&
           state.cities.map((el, index) => <City city={el} index={index + 1} />)}
-      </div>
+      </h1>
     </>
   );
 }

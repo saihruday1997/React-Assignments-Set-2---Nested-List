@@ -4,5 +4,5 @@ export default function Town(props) {
   let town = props.town;
   let id = props.index;
 
-  return <div id={`town${id}`}>{town.name}</div>;
+  return <h1 id={`town${id}`}>{town.name}</h1>;
 }
